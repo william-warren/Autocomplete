@@ -24,3 +24,12 @@ To complete this project you will want to:
 This project doesn't require a database, so you don't have to do any interesting setup. Just run the server!
 
 `python3 manage.py runserver`
+
+## Running the test
+
+This project uses a [cypress](https://cypress.io) test suite.
+You should `npm install` to make sure `cypress` gets installed.
+After that you can run `npm test` to start the `cypress` test runner.
+From there you can press the `Run All Specs` button.
+
+**Don't forget to start your django server before running your cypress specs**

@@ -1,0 +1,22 @@
+{
+  "name": "autocomplete-from-api",
+  "version": "1.0.0",
+  "description": "For this assignment you will be using the JavaScript function `fetch` to make an API request to the backend and update a `datalist` to support dynamic autocompletion based on data from the server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaseCampCoding/autocomplete-from-api.git"
+  },
+  "author": "Nate Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BaseCampCoding/autocomplete-from-api/issues"
+  },
+  "homepage": "https://github.com/BaseCampCoding/autocomplete-from-api#readme",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
