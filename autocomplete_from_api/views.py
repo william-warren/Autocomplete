@@ -66,4 +66,4 @@ def api_students(request):
     return JsonResponse({"students": results})
 
 
-home = TemplateView.as_view(template_name="home.html")
+home = TemplateView.as_view(template_name="home.dhtml")
